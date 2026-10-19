@@ -28,8 +28,22 @@
       "source": "https://github.com/southernMortals/dbx-board-games",
       "homepage": "https://github.com/southernMortals/dbx-board-games",
       "license": "Apache-2.0",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "versions": [
+        {
+          "version": "0.1.1",
+          "releasedAt": "2026-10-19T12:00:00.000Z",
+          "releaseNotes": "棋子移动补间（消除瞬移）、pixi-filters 墨晕与印章压痕、重做国风 UI、粒子优化。",
+          "artifacts": [
+            {
+              "target": "darwin-x64",
+              "url": "https://raw.githubusercontent.com/southernMortals/dbx-plugins/main/releases/0.1.1/io.github.southernmortals.board-games-0.1.1-darwin-x64.dbxp",
+              "sha256": "47b066134db4997ef0dd05543e1b6890617f8c1bc36c5ec777eb3ac802ce5e5f",
+              "size": 5972289,
+              "signingKeyId": "southernMortals-plugins.release"
+            }
+          ]
+        },
         {
           "version": "0.1.0",
           "releasedAt": "2026-10-19T06:20:00.000Z",

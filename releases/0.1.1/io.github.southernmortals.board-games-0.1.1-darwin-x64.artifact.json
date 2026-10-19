@@ -1,0 +1,7 @@
+{
+  "target": "darwin-x64",
+  "url": "https://raw.githubusercontent.com/southernMortals/dbx-plugins/main/releases/0.1.1/io.github.southernmortals.board-games-0.1.1-darwin-x64.dbxp",
+  "sha256": "47b066134db4997ef0dd05543e1b6890617f8c1bc36c5ec777eb3ac802ce5e5f",
+  "size": 5972289,
+  "signingKeyId": "southernMortals-plugins.release"
+}
