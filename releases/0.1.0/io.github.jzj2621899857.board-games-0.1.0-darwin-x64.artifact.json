@@ -1,0 +1,7 @@
+{
+  "target": "darwin-x64",
+  "url": "https://github.com/jzj2621899857/dbx-plugins/releases/download/v0.1.0/io.github.jzj2621899857.board-games-0.1.0-darwin-x64.dbxp",
+  "sha256": "9e7fdb54847e10957d6af606e4101dbb74bc28d7f928a72d4a78c5510d3f51ff",
+  "size": 5938075,
+  "signingKeyId": "jzj2621899857-plugins.release"
+}
