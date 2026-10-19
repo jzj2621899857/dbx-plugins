@@ -1,0 +1,7 @@
+# Signing seeds must never be committed.
+*.env
+*.key
+*.seed
+.dbx-repository-signing-key.env
+.DS_Store
+*.log

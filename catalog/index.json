@@ -1,0 +1,10 @@
+{
+  "$schema": "https://dbx.example/schemas/plugin-marketplace-v1.json",
+  "catalogVersion": 1,
+  "repository": {
+    "id": "jzj2621899857-plugins",
+    "name": "jzj2621899857 插件仓库",
+    "homepage": "https://github.com/jzj2621899857/dbx-plugins"
+  },
+  "plugins": []
+}
