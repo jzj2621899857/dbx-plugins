@@ -2,7 +2,7 @@
 
 ## 0.1.0 — 2026-10-19
 
-首个版本，`io.github.jzj2621899857.board-games`。
+首个版本，`io.github.southernmortals.board-games`。
 
 - 局域网中国象棋与五子棋，同一个 WiFi 自动发现房间
 - 两席先到先坐，其余观战，最多 8 人

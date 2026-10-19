@@ -17,9 +17,9 @@ workflow logs.
 
 Two repositories:
 
-- `jzj2621899857/dbx-plugins` — the distribution repository. Holds the catalog document, the
+- `southernMortals/dbx-plugins` — the distribution repository. Holds the catalog document, the
   public key, and the signed release artifacts. This is the URL entered in DBX.
-- `jzj2621899857/dbx-board-games` — plugin source for this plugin. Holds code, tests, docs, and the
+- `southernMortals/dbx-board-games` — plugin source for this plugin. Holds code, tests, docs, and the
   packaging workflow that produces unsigned candidates.
 
 Future plugins add a source repository and one catalog entry; the catalog URL never

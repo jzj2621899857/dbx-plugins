@@ -4,9 +4,9 @@
 
 | 项 | 值 |
 | --- | --- |
-| Key ID | `jzj2621899857-plugins.release` |
-| 公钥（Base64，32 字节） | `fWkQiWVmivoOmfBe6YRhFLJcrZ49kiAB2Ae+KAaO/dM=` |
-| 文件 | `jzj2621899857-plugins.release.pub` |
+| Key ID | `southernMortals-plugins.release` |
+| 公钥（Base64，32 字节） | `niyPPbiaadjs6VIRE6NU51gBBaNULahIKN+9eZQxsws=` |
+| 文件 | `southernMortals-plugins.release.pub` |
 
 ## 如何信任这把公钥
 
