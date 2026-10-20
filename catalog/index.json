@@ -28,8 +28,22 @@
       "source": "https://github.com/southernMortals/dbx-board-games",
       "homepage": "https://github.com/southernMortals/dbx-board-games",
       "license": "Apache-2.0",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.2.0",
       "versions": [
+        {
+          "version": "0.2.0",
+          "releasedAt": "2026-10-20T10:30:00.000Z",
+          "releaseNotes": "时间控制与选边、启发式陪练、座位分列对面与本侧、搬棋手影、落子冲击；修复局域网地址不可达与房间列表字段错位。",
+          "artifacts": [
+            {
+              "target": "darwin-x64",
+              "url": "https://raw.githubusercontent.com/southernMortals/dbx-plugins/main/releases/0.2.0/io.github.southernmortals.board-games-0.2.0-darwin-x64.dbxp",
+              "sha256": "ac6ac1a4cea34b13ab3114e9de30a0500e9f8ee88391e98f4c8b51186384497a",
+              "size": 6002260,
+              "signingKeyId": "southernMortals-plugins.release-2"
+            }
+          ]
+        },
         {
           "version": "0.1.1",
           "releasedAt": "2026-10-19T12:00:00.000Z",

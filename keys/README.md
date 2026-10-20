@@ -2,11 +2,22 @@
 
 本仓库用一把 Ed25519 密钥签名它发布的插件包。DBX 不会自动信任自建仓库，需要你在插件中心手动加入这把公钥。
 
-| 项 | 值 |
-| --- | --- |
-| Key ID | `southernMortals-plugins.release` |
-| 公钥（Base64，32 字节） | `niyPPbiaadjs6VIRE6NU51gBBaNULahIKN+9eZQxsws=` |
-| 文件 | `southernMortals-plugins.release.pub` |
+| 项 | 值 | 签过哪些版本 |
+| --- | --- | --- |
+| Key ID | `southernMortals-plugins.release` | 0.1.0、0.1.1 |
+| 公钥（Base64，32 字节） | `niyPPbiaadjs6VIRE6NU51gBBaNULahIKN+9eZQxsws=` | |
+| 文件 | `southernMortals-plugins.release.pub` | |
+| Key ID | `southernMortals-plugins.release-2` | 0.2.0 起 |
+| 公钥（Base64，32 字节） | `G8pxP5U/fwwR1j1ahwAOpEMHa/hb724qiNz0/wjU7EE=` | |
+| 文件 | `southernMortals-plugins.release-2.pub` | |
+
+## 密钥轮换说明（2026-10-20）
+
+第一把密钥的私钥文件当时只存在于 `/tmp`，被系统清理后无法恢复，因此 0.2.0 起改用第二把密钥。
+
+- 0.1.x 的包仍由旧密钥签名，旧公钥需要保留在信任列表里，否则已装的老版本会验签失败
+- 0.2.0 及之后由新密钥签名
+- **两把公钥都要信任**，才能同时加载新旧版本
 
 ## 如何信任这把公钥
 
