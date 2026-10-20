@@ -28,8 +28,22 @@
       "source": "https://github.com/southernMortals/dbx-board-games",
       "homepage": "https://github.com/southernMortals/dbx-board-games",
       "license": "Apache-2.0",
-      "latestVersion": "0.2.0",
+      "latestVersion": "0.2.1",
       "versions": [
+        {
+          "version": "0.2.1",
+          "releasedAt": "2026-10-20T10:50:00.000Z",
+          "releaseNotes": "与 0.2.0 内容相同，仅版本号推进；含时间控制、陪练、手影、局域网地址与邀请串修复。",
+          "artifacts": [
+            {
+              "target": "darwin-x64",
+              "url": "https://raw.githubusercontent.com/southernMortals/dbx-plugins/main/releases/0.2.1/io.github.southernmortals.board-games-0.2.1-darwin-x64.dbxp",
+              "sha256": "35df34c19c575d7236e7463ae30ee9ac0b67c80ad32a0bd43e0b96d959d4cbce",
+              "size": 6002246,
+              "signingKeyId": "southernMortals-plugins.release-2"
+            }
+          ]
+        },
         {
           "version": "0.2.0",
           "releasedAt": "2026-10-20T10:30:00.000Z",
