@@ -6,7 +6,7 @@
     "name": "southernMortals 插件仓库",
     "homepage": "https://github.com/southernMortals/dbx-plugins"
   },
-  "generatedAt": "2026-10-21T04:58:41Z",
+  "generatedAt": "2026-10-21T06:14:53Z",
   "plugins": [
     {
       "id": "io.github.southernmortals.board-games",
@@ -28,8 +28,22 @@
       "source": "https://github.com/southernMortals/dbx-board-games",
       "homepage": "https://github.com/southernMortals/dbx-board-games",
       "license": "Apache-2.0",
-      "latestVersion": "0.2.4",
+      "latestVersion": "0.2.5",
       "versions": [
+        {
+          "version": "0.2.5",
+          "releasedAt": "2026-10-21T06:14:53Z",
+          "releaseNotes": "结算画面不再抢戏：MVP 面板移出全屏遮罩，改驻左侧栏，等棋盘的连线、印章与冲击波演完（约 2.15 秒，低动效 1 秒）再登场，棋盘上的胜负特效全程可见。",
+          "artifacts": [
+            {
+              "target": "darwin-x64",
+              "url": "https://raw.githubusercontent.com/southernMortals/dbx-plugins/main/releases/0.2.5/io.github.southernmortals.board-games-0.2.5-darwin-x64.dbxp",
+              "sha256": "1353710f426022427d96db0863702c8d1beb457b3057262a7ab376a02e9f17f8",
+              "size": 6009979,
+              "signingKeyId": "southernMortals-plugins.release-2"
+            }
+          ]
+        },
         {
           "version": "0.2.4",
           "releasedAt": "2026-10-21T04:58:41Z",
